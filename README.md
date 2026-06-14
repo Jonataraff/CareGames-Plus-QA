@@ -20,6 +20,18 @@ A equipe responsável por este projeto é composta por:
 | Diogo Julio     | RM553837 |
 | Jonata Rafael   | RM552939 |
 
+## Azure DevOps
+
+Acompanhe o gerenciamento do backlog e dos testes através do Azure Boards:
+
+[Azure Boards](https://dev.azure.com/RM553240/Care-Games-Plus-Project/_workitems/recentlyupdated/)
+
+## Demonstração
+
+Vídeo de execução dos testes automatizados:
+
+[Vídeo de Demonstração](https://youtu.be/U705FTcsAQQ)
+
 ## Escopo de Quality Assurance
 
 Durante o projeto, foram realizadas as seguintes atividades de QA:
@@ -104,17 +116,7 @@ Os seguintes fluxos foram automatizados utilizando Katalon Studio em ambiente An
 | Automação de Testes       | Katalon Studio   |
 | Ambiente de Testes        | Android Emulator |
 
-## Azure DevOps
 
-Acompanhe o gerenciamento do backlog e dos testes através do Azure Boards:
-
-[Azure Boards](https://dev.azure.com/RM553240/Care-Games-Plus-Project/_workitems/recentlyupdated/)
-
-## Demonstração
-
-Vídeo de execução dos testes automatizados:
-
-[Vídeo de Demonstração](https://youtu.be/U705FTcsAQQ)
 
 
 ## Objetivo Acadêmico
