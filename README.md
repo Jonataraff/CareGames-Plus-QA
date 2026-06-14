@@ -1,107 +1,122 @@
-CareGames+ | Quality Assurance
-Sobre o Projeto
+# CareGames+ | Quality Assurance
 
-O CareGames+ é um aplicativo mobile desenvolvido com React Native, Expo e Expo Router, criado para incentivar hábitos saudáveis por meio da gamificação.
+Este repositório documenta o projeto acadêmico de Quality Assurance (QA) para o aplicativo CareGames+, detalhando o planejamento, gerenciamento e execução de testes utilizando Azure DevOps e Katalon Studio.
 
-A plataforma permite que os usuários acompanhem seu progresso, participem de desafios, acumulem pontos, visualizem rankings competitivos e resgatem benefícios de acordo com seu desempenho.
+## Descrição do Projeto
 
-Além disso, o aplicativo conta com integração com dispositivos wearables, persistência de dados utilizando AsyncStorage e recursos voltados ao bem-estar e à saúde dos usuários.
+O CareGames+ é um aplicativo mobile desenvolvido com React Native, Expo e Expo Router, concebido para promover hábitos saudáveis através da gamificação. A plataforma permite aos usuários acompanhar sua evolução, participar de desafios, acumular pontos, visualizar rankings competitivos, resgatar benefícios e integrar dispositivos wearables para monitoramento de atividades.
 
-Objetivo da Atividade
+Este repositório foca na documentação das atividades de Quality Assurance, abrangendo planejamento, rastreabilidade, testes manuais e testes automatizados.
 
-Este projeto foi utilizado como estudo de caso para aplicação dos conceitos de Quality Assurance (QA), contemplando:
+## Equipe
 
-Planejamento de testes;
-Gestão de backlog;
-Criação de Épicos, Features, PBIs e Tasks;
-Criação de casos de teste;
-Execução de testes manuais;
-Execução de testes automatizados;
-Rastreabilidade entre requisitos e testes;
-Utilização do Azure DevOps para gerenciamento do projeto.
-Integrantes
-Nome	RM
-Vinicius Silva	RM553240
-Victor Didoff	RM552965
-Matheus Zottiz	RM94119
-Diogo Julio	RM553837
-Jonata Rafael	RM552939
-Tecnologias Utilizadas
-Categoria	Tecnologia
-Front-end Mobile	React Native
-Framework	Expo
-Navegação	Expo Router
-Linguagem	TypeScript
-Persistência	AsyncStorage
-Comunicação em Tempo Real	WebSocket
-Gestão Ágil	Azure DevOps
-Automação de Testes	Katalon Studio
-Ambiente de Testes	Android Emulator
-Funcionalidades Validadas
-Autenticação
-Cadastro de usuários
-Login
-Persistência de sessão
-Perfil
-Visualização de perfil
-Upload de foto
-Persistência de informações
-Gamificação
-Sistema de desafios
-Acúmulo de pontos
-Ranking de usuários
-Benefícios
-Consulta de benefícios
-Resgate de recompensas
-Configurações
-Alteração de tema
-Persistência de preferências
-Integração IoT
-Comunicação com wearables
-Atualização de dados em tempo real
-Casos de Teste Implementados
-Código	Caso de Teste
-TC01	Cadastro válido de usuário
-TC02	Cadastro inválido
-TC03	Login válido
-TC04	Login inválido
-TC05	Upload de foto de perfil
-TC06	Alteração de tema
-TC07	Conclusão de desafio
-TC08	Visualização de ranking
-TC09	Resgate de benefício
-TC10	Integração com wearable
-Testes Automatizados
+A equipe responsável por este projeto é composta por:
 
-Foram implementados testes automatizados contemplando os principais fluxos da aplicação:
+| Integrante      | RM       |
+|-----------------|----------|
+| Vinicius Silva  | RM553240 |
+| Victor Didoff   | RM552965 |
+| Matheus Zottiz  | RM94119  |
+| Diogo Julio     | RM553837 |
+| Jonata Rafael   | RM552939 |
 
-Cadastro de usuário
-Login
-Alteração de tema
-Resgate de benefícios
+## Escopo de Quality Assurance
 
-Os testes foram executados utilizando Katalon Studio em ambiente Android.
+Durante o projeto, foram realizadas as seguintes atividades de QA:
 
-Azure DevOps
+- Estruturação do Product Backlog
+- Criação de Épicos, Features, PBIs e Tasks
+- Planejamento de Sprint
+- Definição de critérios de aceite
+- Criação de casos de teste
+- Execução de testes manuais
+- Automação de testes
+- Rastreabilidade entre requisitos e testes
+- Gestão das atividades através do Azure DevOps
 
-Gerenciamento do backlog, planejamento e rastreabilidade dos testes:
+## Funcionalidades Avaliadas
 
-https://dev.azure.com/RM553240/Care-Games-Plus-Project/_workitems/recentlyupdated/
+As principais funcionalidades do aplicativo CareGames+ avaliadas incluem:
 
-Vídeo de Demonstração
+### Autenticação
+- Cadastro de usuários
+- Login
+- Persistência de sessão
 
-Execução dos testes automatizados:
+### Perfil
+- Consulta de informações do usuário
+- Upload de foto de perfil
 
-https://youtu.be/U705FTcsAQQ
+### Configurações
+- Alternância entre tema claro e escuro
+- Persistência das preferências do usuário
 
-Estrutura de Gerenciamento
-Epic
- └── Feature
-      └── Product Backlog Item (PBI)
-           └── Task
+### Gamificação
+- Desafios
+- Sistema de pontuação
+- Ranking de usuários
 
-Product Backlog Item
- └── Test Case
-Considerações Finais
+### Benefícios
+- Consulta de benefícios
+- Resgate de recompensas
 
-O projeto permitiu aplicar na prática conceitos relacionados a planejamento, rastreabilidade, testes manuais, automação de testes e metodologias ágeis, utilizando ferramentas amplamente empregadas no mercado de desenvolvimento de software.
+### Wearables
+- Integração com dispositivos IoT
+- Atualização de dados em tempo real
+
+## Casos de Teste
+
+Os casos de teste desenvolvidos para o projeto são:
+
+| Código | Descrição                   |
+|--------|-----------------------------|
+| TC01   | Cadastro válido de usuário  |
+| TC02   | Cadastro inválido           |
+| TC03   | Login válido                |
+| TC04   | Login inválido              |
+| TC05   | Upload de foto de perfil    |
+| TC06   | Alteração de tema           |
+| TC07   | Conclusão de desafio        |
+| TC08   | Visualização de ranking     |
+| TC09   | Resgate de benefício        |
+| TC10   | Integração com wearable     |
+
+## Testes Automatizados
+
+Os seguintes fluxos foram automatizados utilizando Katalon Studio em ambiente Android:
+
+- Cadastro de usuário
+- Login
+- Alteração de tema
+- Resgate de benefícios
+
+## Tecnologias Utilizadas
+
+| Categoria                 | Tecnologia       |
+|---------------------------|------------------|
+| Mobile                    | React Native     |
+| Framework                 | Expo             |
+| Navegação                 | Expo Router      |
+| Linguagem                 | TypeScript       |
+| Persistência              | AsyncStorage     |
+| Comunicação em Tempo Real | WebSocket        |
+| Gestão Ágil               | Azure DevOps     |
+| Automação de Testes       | Katalon Studio   |
+| Ambiente de Testes        | Android Emulator |
+
+## Azure DevOps
+
+Acompanhe o gerenciamento do backlog e dos testes através do Azure Boards:
+
+[Azure Boards](https://dev.azure.com/RM553240/Care-Games-Plus-Project/_workitems/recentlyupdated/)
+
+## Demonstração
+
+Vídeo de execução dos testes automatizados:
+
+[Vídeo de Demonstração](https://youtu.be/U705FTcsAQQ)
+
+
+## Objetivo Acadêmico
+
+O objetivo acadêmico deste projeto foi aplicar conceitos de Quality Assurance em um cenário real, empregando práticas de gerenciamento ágil, rastreabilidade de requisitos, testes manuais e automação de testes com ferramentas de mercado.
